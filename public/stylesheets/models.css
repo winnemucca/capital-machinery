@@ -1,0 +1,85 @@
+body {
+margin-top: 50px;
+}
+
+.topNav {
+  background: rgb(223, 221, 221);
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: red;
+    color: #FFFFFF;
+}
+/*ul.nav a:hover { color: #fff !important; } */
+
+/*rows*/
+.one, .two, .three {
+padding-top: 20px;
+color: red;
+/*background: white;*/
+}
+
+.model-title{
+color:black;
+text-align: left;
+}
+
+.product-background{
+	 background: rgb(239, 239, 239);
+}
+.model-description {
+	background: #fff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.model-description:hover {
+	background: red;
+	color: #fff;
+}
+.item-description {
+	font-weight: bold;
+}
+
+.page-header {
+  background: red;
+  color:white;
+  text-align: center;
+  padding:40px 0;
+  margin-top: 0;
+}
+.font-style {
+  text-align: center;
+  /*margin-bottom: 20px*/
+}
+.font-style:hover {
+  color:black;
+}
+.font-style i {
+  border: 2px solid;
+  padding:20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-photo {
+  height: 400px;
+}
+.caption {
+  color:black;
+}
+
+.media-body {
+  border-bottom: 1px solid grey;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}

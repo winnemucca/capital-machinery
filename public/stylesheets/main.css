@@ -1,0 +1,65 @@
+body{
+  margin-top: 50px;
+}
+
+.topNav {
+  background: rgb(223, 221, 221);
+  margin-bottom: 0;
+}
+
+/*.left, .right {
+  float: left;
+  width: 50%;
+}*/
+.title {
+  color: black;
+}
+.components {
+  list-style-type: none;
+  float: right;
+  text-align: center;
+  color:white;
+  width: 70%;
+}
+
+.components li {
+  display: inline;
+  padding:10px;
+}
+.divide-nav{
+  height: 50px;
+  background-color: #428bca;
+}
+
+.divide-text{
+    color:#fff;
+    line-height: 20px;
+    font-size:20px;
+    padding: 15px 0;
+}
+
+.affix {
+  top: 50px;
+  width:100%;
+}
+
+.filler{
+  min-height: 2000px;
+}
+
+.navbar-form {
+   padding-left: 0;
+}
+
+.navbar-collapse{
+   padding-left:0; 
+}
+
+h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.model {
+  text-align: center;
+}
