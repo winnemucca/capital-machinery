@@ -41,6 +41,9 @@ app.get('/about',indexController.about);
 app.get('/newspage',indexController.newsPage);
 app.get('/financing',indexController.financing);
 
-var server = app.listen(3261, function() {
+var port = process.env.PORT || 3261;
+
+var server = app.listen(port, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });
+
